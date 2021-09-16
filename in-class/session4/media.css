@@ -1,0 +1,22 @@
+#fish{
+    width: 300px;
+}
+
+#fish-audio{
+    width: 400px;
+}
+
+img{
+    width: 50%;
+    max-width: 700px;
+    min-width: 200px;
+    display: block;
+    margin: 2rem;
+    border: 1rem dotted cyan;
+}
+
+#purple{
+    width: 200px;
+    height: 800px;
+    object-fit: cover;
+}

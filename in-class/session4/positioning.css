@@ -1,0 +1,43 @@
+body{
+    background-image: url(images/panda-151587_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box{
+    width: 10rem;
+    height: 10rem;
+    background: lightpink;
+    margin: 1rem;
+}
+
+#box-1 {
+    position: absolute;
+    /*this box is floating free whne it is absolute. Great way to position something. you can do top, right, bottom and left*/
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+    /*puts a shape or obj on top of another*/
+
+}
+
+#box-2{
+    position: absolute;
+    background: limegreem;
+    right: 10px;
+    top: 2000px;
+}
+
+#box-3 {
+    position: absolute;
+    background: cornflowerblue;
+}
+
+#box-4{
+    background: orange;
+    z-index: 20;
+    position: fixed;
+    right: 10px;
+    top: 300px;
+
+}

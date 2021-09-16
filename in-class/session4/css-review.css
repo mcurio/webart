@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+}
+
+.box-model{
+    width: 15rem;
+    height: 15rem;
+    background: limegreen;
+    border: 1rem solid orange;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.child{
+    width: 50%;
+    /*50% is 50% of the parent element in html*/
+    height: 50%;
+    background: purple;
+}
+
+.em-stuff{
+
+}
+
+.em-text {
+    font-size: 4rem;
+    background: lightblue;
+    padding: 2rem;
+    text-align: center;
+    width: max-content;
+}
