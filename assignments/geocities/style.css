@@ -241,3 +241,67 @@ h2 {
     width: 400px;
     height: 400px;
   }
+
+  #flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 2 auto;
+    width: 80vw;
+    height: max-content;
+    /*background-color: rgb(200, 220, 255);*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .box {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  .green {
+    background-color: greenyellow;
+    width: 600px;
+    height: 800px;
+  }
+  
+  .top2 {
+    position: relative;
+    /*background:green;*/
+    height: 2rem;
+  }
+
+  .facts{
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .sub2 { 
+    /*background-color: red;*/
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+  }
+
+  ul {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  /*.orange {
+    background-color: orange;
+  }*/
+
+  .map {
+    width: 400px;
+    height: 600px;
+  }
