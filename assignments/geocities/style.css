@@ -1,0 +1,22 @@
+body {
+    background-image: url("images/door-open.gif");
+    background-repeat: repeat;
+}
+
+div {
+    background: darkred;
+    border: 3px solid goldenrod;
+    height: 30vh;
+    width: 60vw;
+    margin:auto; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .grandparent {
+    width: 400px;
+    height: 400px;
+    margin:auto; 
+  }
