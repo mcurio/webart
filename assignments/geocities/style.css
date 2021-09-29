@@ -5,7 +5,6 @@ body {
 
 .container {
     border: .5rem solid goldenrod;
-    height: 100vh;
     margin: auto;
     /*padding: auto;*/
 
@@ -29,7 +28,9 @@ body {
     width: 70%;
     min-width: 28rem;
     max-width: 50rem;
-    margin: 5rem auto;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
     /*margin-left: auto;
     margin-right: auto;*/
     
@@ -88,31 +89,155 @@ h1 {
     justify-content: center;
 }
 
+.slippers {
+    
+}
+
 .container3 {
     position: relative;
     background: goldenrod;
     border: .25rem dashed blue;
-    width: 30%;
-    min-width: 2rem;
-    max-width: 50rem;
-    margin-top: 1rem; 
-    margin-left: 12rem;
+    width: 70%;
+    min-width: 23rem;
+    max-width: 30rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
     
-    height: 4vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    /*position: relative;
+    background: goldenrod;
+    border: .25rem dashed blue;
+    width: 70%;
+    min-width: 26rem;
+    max-width: 50rem;
+    
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+
 }
 
 h2 {
-    postion: absolute;
+    postion: relative;
+    float: left; 
+    margin: 1rem; 
+
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    /*postion: abso;
     float: left; 
 
     text-align: left;
     font-size: 1rem;
     align-items: center;
+    justify-content: center;*/
+}
+
+.container4 {
+    position: relative;
+    /*background: goldenrod;
+    border: .25rem dashed blue;*/
+    width: 70%;
+    /*min-width: 23rem;
+    max-width: 30rem;*/
+    /*margin-top: 2rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    
+    height: 15vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.slipper {
+    width: 4rem;
+}
 
+.about {
+    postion: relative;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+
+#flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80vw;
+    height: max-content;
+    /*background-color: rgb(200, 220, 255);*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .box {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  .beige {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .top{
+    position: relative;
+    /*background:green;*/
+    margin-bottom: 30rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    height: 2rem;
+  }
+
+  h6{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .sub { 
+    /*background-color: red;*/
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+  }
+
+  ul {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  /*.orange {
+    background-color: orange;
+  }*/
+
+  .baby {
+    width: 400px;
+    height: 400px;
+  }
