@@ -1,0 +1,99 @@
+body {
+    background-image: url("images/door-open.gif");
+    background-repeat: repeat;
+}
+
+.container {
+    position: relative;
+    background: seagreen;
+    width: 80%;
+    height: 15rem;
+    border: .5rem solid mintcream;
+    margin: 5rem auto;
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    position: relative;
+    background: peru;
+    width: 23.33%;
+    float: left;
+}
+
+.flag1 {
+    position: absolute;
+    width: 5rem;
+}
+
+#div2 {
+    position: relative;
+    background: pink;
+    width: 23.33%;
+    float: right;
+}
+
+.flag2 {
+    position: absolute;
+    width: 5rem;
+}
+
+#div3 {
+    position: relative;
+    background: purple;
+    width: 53.33%;
+    /*margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    /*top: auto;
+    left: auto;*/
+    padding: auto;
+    margin: auto;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+.container1 {
+    background: seagreen;
+    width: 80%;
+    height: 15rem;
+    border: .5rem solid mintcream;
+    margin: 5rem auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    align-items: left;
+    background: orange;
+    display: inline; 
+}
+
+.greetings{
+    position: absolute;
+    background: peachpuff;
+    display: inline;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    top: auto;
+    left: auto;
+
+    text-transform: uppercase;
+}
+*/
