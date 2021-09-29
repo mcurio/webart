@@ -245,7 +245,7 @@ h2 {
   #flex-wrapper {
     display: flex;
     flex-direction: row;
-    margin: 2 auto;
+    margin: 0 auto;
     width: 80vw;
     height: max-content;
     /*background-color: rgb(200, 220, 255);*/
@@ -268,24 +268,99 @@ h2 {
   
   .green {
     background-color: greenyellow;
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 900px;
+    margin-bottom: 40rem;
   }
   
   .top2 {
     position: relative;
     /*background:green;*/
+    margin-bottom: 45rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
     height: 2rem;
   }
 
   .facts{
-    margin-right: .5rem;
-    margin-left: .5rem;
+    position: relative;
+    /*background-color: grey;*/
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 3rem;
+    
+  }
+
+  .sub2 { 
+    /*background-color: red;*/
+    width: 300px;
+    height: 200px;
+    margin-right: 1rem;
+  }
+
+  .philip {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  .orange1 {
+    /*background-color: orange;*/
+    margin-bottom: 35rem;
+  }
+
+  .map {
+    width: 400px;
+    height: 600px;
+    margin-bottom: 6rem;
+  }
+
+  #flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80vw;
+    height: max-content;
+    /*background-color: rgb(200, 220, 255);*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .box {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  .beige {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .top{
+    position: relative;
+    /*background:green;*/
+    margin-bottom: 30rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    height: 2rem;
+  }
+
+  h6{
+    margin-left: 1rem;
     margin-top: 3rem;
     font-size: 2rem;
   }
 
-  .sub2 { 
+  .sub { 
     /*background-color: red;*/
     width: 200px;
     height: 200px;
@@ -301,7 +376,7 @@ h2 {
     background-color: orange;
   }*/
 
-  .map {
+  .baby {
     width: 400px;
-    height: 600px;
+    height: 400px;
   }
