@@ -269,7 +269,7 @@ h2 {
   .green {
     background-color: greenyellow;
     width: 500px;
-    height: 900px;
+    height: 1000px;
     margin-bottom: 40rem;
   }
   
@@ -288,6 +288,7 @@ h2 {
     font-size: 2rem;
     text-align: center;
     margin-right: 3rem;
+    margin-top: 8rem;;
     
   }
 
@@ -296,10 +297,11 @@ h2 {
     width: 300px;
     height: 200px;
     margin-right: 1rem;
+    margin-bottom: 10rem;
   }
 
   .philip {
-    font-size: 1rem;
+    font-size: .75rem;
     text-align: center;
     margin-left: 2rem;
   }
@@ -310,9 +312,9 @@ h2 {
   }
 
   .map {
-    width: 400px;
-    height: 600px;
-    margin-bottom: 6rem;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 3rem;
   }
 
   #flex-wrapper {
@@ -376,7 +378,7 @@ h2 {
     background-color: orange;
   }*/
 
-  .baby {
+  .palawan {
     width: 400px;
     height: 400px;
   }
