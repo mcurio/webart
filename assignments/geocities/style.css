@@ -90,14 +90,15 @@ h1 {
 
 .container3 {
     position: relative;
-    background: darkred;
-    border: .25rem solid goldenrod;
-    width: 70%;
-    min-width: 28rem;
+    background: goldenrod;
+    border: .25rem dashed blue;
+    width: 30%;
+    min-width: 2rem;
     max-width: 50rem;
-    margin: 5rem auto;
+    margin-top: 1rem; 
+    margin-left: 12rem;
     
-    height: 35vh;
+    height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,13 +107,10 @@ h1 {
 
 h2 {
     postion: absolute;
-    float: left;
-    margin: auto; 
-    margin: 1rem; 
-    margin-right: 2rem;
+    float: left; 
 
     text-align: left;
-    font-size: 3rem;
+    font-size: 1rem;
     align-items: center;
     justify-content: center;
 }
