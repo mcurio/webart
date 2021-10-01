@@ -1,0 +1,117 @@
+body {
+    background-image: url("images/door-open.gif");
+    background-repeat: repeat;
+}
+
+.container {
+    border: .5rem solid goldenrod;
+    margin: auto;
+}
+
+.in {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    min-width: 300px;
+    max-width: 100%;
+    background: darkred;
+    border: 3px solid yellow;
+    background-image: url(https://web.archive.org/web/20091026011616/http://geocities.com/apstaxman/Philippines.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5rem;
+    
+    font-size: 3rem;
+    color: cornsilk;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strolling {
+    position: relative;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    position: relative;
+    background: goldenrod;
+    border: .25rem dashed blue;
+    width: 65%;
+    min-width: 18rem;
+    max-width: 40rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    postion: relative;
+    /*float: left;*/
+    margin: 1rem; 
+
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.shapes {
+    position: relative;
+    width: 95vw;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.about {
+    position: relative;
+    color: white;
+    /*float: left;*/
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+
+    text-align: center;
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    /*color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 50rem;*/
+}
+
+/*.flag1 {
+    object-fit: contain;
+}*/
+
+/*div {
+    width: 50%;
+    height: 50%;
+    background: gray;
+    border: 3px solid yellow;
+    margin: .25rem;
+  }
+  
+  .grandparent {
+    width: 400px;
+    height: 400px;
+  }*/
