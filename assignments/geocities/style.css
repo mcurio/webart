@@ -89,10 +89,6 @@ h1 {
     justify-content: center;
 }
 
-.slippers {
-    
-}
-
 .container3 {
     position: relative;
     background: goldenrod;
@@ -182,7 +178,81 @@ h2 {
     margin: 0 auto;
     width: 80vw;
     height: max-content;
-    /*background-color: rgb(200, 220, 255);*/
+    background-color: rgb(200, 220, 255);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.box {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 5px dotted greenyellow;
+    margin: 10px 0;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+  
+.red {
+    background-color: red;
+}
+
+.title1 {
+    background: chartreuse;
+    height: 5rem;
+    width: 10rem;
+    margin-bottom: 20rem;
+
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    background: cyan;
+    background-size: cover;
+    /*font-size: 1rem;
+    margin-top: 10rem;
+    margin-right: 5rem;
+    width: 300px;*/
+}
+
+/*.About {
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    width: 50%;
+}*/
+  
+.orange {
+    background-color: orange;
+    background-image: url(images/babyme.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80vw;
+    height: max-content;
+    background-color: rgb(200, 220, 255);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -192,7 +262,7 @@ h2 {
   .box {
     display: flex;
     width: 500px;
-    height: 500px;
+    height: 400px;
     border: 5px;
     margin: 10px 0;
     justify-content: center;
@@ -202,60 +272,61 @@ h2 {
   
   .beige {
     background-color: beige;
-    width: 400px;
-    height: 400px;
+    width: 300px;
   }
   
-  .top{
+ .top{
     position: relative;
-    /*background:green;*/
+    background:green;
     margin-bottom: 30rem;
-    margin-top: 5rem;
-    margin-left: 2rem;
+    margin-top: 10rem;
+    margin-left: 8rem;
     height: 2rem;
+    
   }
 
   h6{
     margin-left: 1rem;
-    margin-top: 3rem;
-    font-size: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .sub { 
-    /*background-color: red;*/
-    width: 200px;
-    height: 200px;
-    margin-right: 1rem;
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    margin-right: 10re
   }
 
   ul {
     font-size: 1rem;
     margin-bottom: 2rem;
-    align-items: center;
+    text-align: center;
   }
-  /*.orange {
+  .orange {
     background-color: orange;
-  }*/
+  }
 
   .baby {
     width: 400px;
     height: 400px;
   }
 
-  #flex-wrapper {
+/*#flex-wrapper {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     width: 80vw;
     height: max-content;
-    /*background-color: rgb(200, 220, 255);*/
+    background-color: rgb(200, 220, 255);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
   }
   
   
-  .box {
+.box {
     display: flex;
     width: 500px;
     height: 500px;
@@ -269,35 +340,28 @@ h2 {
   .green {
     background-color: greenyellow;
     width: 500px;
-    height: 1000px;
-    margin-bottom: 40rem;
-  }
-  
-  .top2 {
-    position: relative;
-    /*background:green;*/
-    margin-bottom: 45rem;
-    margin-top: 5rem;
-    margin-left: 2rem;
-    height: 2rem;
+    height: 800px;
+    margin-bottom: 80rem;
+    margin-top: 80rem;
   }
 
   .facts{
     position: relative;
-    /*background-color: grey;*/
+    background-color: grey;
     font-size: 2rem;
     text-align: center;
-    margin-right: 3rem;
-    margin-top: 8rem;;
+    margin-left: 2rem;
+    margin-bottom: .5rem;
     
   }
 
   .sub2 { 
-    /*background-color: red;*/
+    background-color: red;
     width: 300px;
     height: 200px;
-    margin-right: 1rem;
-    margin-bottom: 10rem;
+    margin-left: 2rem;
+    margin-bottom: 12rem;
+    margin-top: 2rem;
   }
 
   .philip {
@@ -306,15 +370,10 @@ h2 {
     margin-left: 2rem;
   }
 
-  .orange1 {
-    /*background-color: orange;*/
-    margin-bottom: 35rem;
-  }
-
   .map {
-    width: 200px;
-    height: 400px;
-    margin-bottom: 3rem;
+    width: 400px;
+    height: 600px;
+    margin-top: 19rem;
   }
 
   #flex-wrapper {
@@ -323,14 +382,14 @@ h2 {
     margin: 0 auto;
     width: 80vw;
     height: max-content;
-    /*background-color: rgb(200, 220, 255);*/
+    background-color: rgb(200, 220, 255);
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
   }
   
   
-  .box {
+.box {
     display: flex;
     width: 500px;
     height: 500px;
@@ -341,44 +400,45 @@ h2 {
     font-size: 4em;
   }
   
-  .beige {
-    background-color: beige;
+.pink {
+    background-color: pink;
     width: 400px;
     height: 400px;
   }
   
-  .top{
+.top3 {
     position: relative;
-    /*background:green;*/
+    background:green;
     margin-bottom: 30rem;
     margin-top: 5rem;
     margin-left: 2rem;
     height: 2rem;
   }
 
-  h6{
-    margin-left: 1rem;
-    margin-top: 3rem;
+.visit {
+    background-color: red;
+    margin: auto;
     font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
   }
 
-  .sub { 
-    /*background-color: red;*/
-    width: 200px;
+  .sub3 { 
+    background-color: red;
+    width: 300px;
     height: 200px;
     margin-right: 1rem;
   }
 
-  ul {
+  .places {
     font-size: 1rem;
-    margin-bottom: 2rem;
-    align-items: center;
+    text-align: center;
   }
-  /*.orange {
+  .orange {
     background-color: orange;
-  }*/
+  }
 
   .palawan {
     width: 400px;
     height: 400px;
-  }
+  }*/
