@@ -5,6 +5,7 @@ body {
 
 audio {
     height: 1rem; 
+    width: 6.5rem;
 }
 .container {
     border: .5rem solid goldenrod;
@@ -402,6 +403,6 @@ ul {
 
 .thanks {
     position: absolute;
-    margin-top: 11.5rem;
+    margin-top: 4rem;
     margin-left: 10rem;
 }
