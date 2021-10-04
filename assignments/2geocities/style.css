@@ -3,6 +3,10 @@ body {
     background-repeat: repeat;
 }
 
+audio {
+    height: 0rem;
+    color: none;
+}
 .container {
     border: .5rem solid goldenrod;
     margin: auto;
