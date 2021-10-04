@@ -12,7 +12,7 @@ body {
     position: relative;
     width: 70%;
     height: 500px;
-    min-width: 300px;
+    min-width: 450px;
     max-width: 100%;
     background: darkred;
     border: 3px solid yellow;
@@ -22,7 +22,8 @@ body {
     background-position: center;
     margin-top: 5rem;
     
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: cornsilk;
     text-align: center;
     display: flex;
@@ -127,6 +128,7 @@ h1 {
 .box1 {
     width: 350px;
     height: 350px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /*background-color: beige;*/
     /*text-align: center;
     font-size: 2em;
@@ -174,6 +176,7 @@ ul {
     text-align: center;
     margin-right: 2rem;
     font-size: 1rem;
+    font-family: monospace;
     list-style-type: none;
     margin-top: 3rem;
     /*padding-bottom: 10rem;*/
@@ -215,6 +218,7 @@ ul {
     width: 450px;
     min-width: 450px;
     height: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .cyan {
@@ -288,6 +292,7 @@ ul {
     width: 400px;
     min-width: 450px;
     height: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .blue {
@@ -357,10 +362,11 @@ ul {
     flex-wrap: wrap;*/
 }
   
-.box3 {
-    width: 600px;
+.box4 {
+    width: 350px;
     min-width: 450px;
-    height: 400px;
+    height: 750px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .pink {
@@ -371,19 +377,20 @@ ul {
     margin: 20px 0;
 }
 
-.about5 {
+/*.about5 {
     /*margin-top: 10rem;*/
-    margin-left: 12rem;
-}
+    /*margin-left: 12rem;
+}*/
   
 ul {
-    /*background:cyan;*/
-    /*position: relative;
-    display: block;*/
     text-align: center;
     margin-right: 2rem;
     font-size: 1rem;
     margin-top: 3rem;
-    /*padding-bottom: 10rem;*/
+}
 
+.thanks {
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 10rem;
 }
