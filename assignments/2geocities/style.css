@@ -4,8 +4,7 @@ body {
 }
 
 audio {
-    height: 0rem;
-    color: none;
+    height: .25rem; 
 }
 .container {
     border: .5rem solid goldenrod;
