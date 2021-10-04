@@ -60,6 +60,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .25s;
+}
+
+.box :hover {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-shadow: 2rem 2rem yellow;
 }
 
 h1 {
@@ -102,7 +110,7 @@ h1 {
 
 #wrapper {
     /*background-color: gray;*/
-    color: brown;
+    color: #c89a4c;
     width: 80%;
     height: max-content;
     margin: 110px auto;
@@ -147,7 +155,7 @@ h1 {
 }
   
 .beige {
-    background-color: beige;
+    background-color: #6b559e;
     text-align: center;
     font-size: 2em;
     padding-top: 3rem;
@@ -192,7 +200,7 @@ ul {
 
 #wrapper2 {
     /*background-color: gray;*/
-    color: white;
+    color: #d9cb51;
     width: 80%;
     height: max-content;
     margin: 110px auto;
@@ -229,7 +237,7 @@ ul {
 }
 
 .purple {
-    background-color: purple;
+    background-color: #47834d;
     text-align: center;
     font-size: 2em;
     padding-top: 5rem;
@@ -266,7 +274,7 @@ ul {
 
 #wrapper3 {
     /*background-color: gray;*/
-    color: white;
+    color: #e97a37;
     width: 80%;
     height: max-content;
     margin: 110px auto;
@@ -296,7 +304,7 @@ ul {
 }
 
 .blue {
-    background-color: blue;
+    background-color: #a33049;
     text-align: center;
     font-size: 2em;
     padding-top: 3rem;
@@ -340,7 +348,7 @@ ul {
   
 #wrapper4 {
     /*background-color: gray;*/
-    color: white;
+    color: #e6cf81;
     width: 80%;
     height: max-content;
     margin: 110px auto;
@@ -365,12 +373,12 @@ ul {
 .box4 {
     width: 350px;
     min-width: 450px;
-    height: 750px;
+    height: 800px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .pink {
-    background-color: pink;
+    background-color: #d99e42;
     text-align: center;
     font-size: 2em;
     padding-top: 3rem;
@@ -391,6 +399,6 @@ ul {
 
 .thanks {
     position: absolute;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     margin-left: 10rem;
 }
