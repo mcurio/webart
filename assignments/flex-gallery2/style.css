@@ -1,0 +1,36 @@
+body {
+    background: rgba(109, 106, 106, 0.932);
+    margin: 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+  
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.item {
+    width: 50%;
+    max-width: 250px;
+    transition: all .5s;
+    margin: 8px;
+}
+  
+.item:hover {
+    transform: scale(1.1);
+}
+  
+.gallery-img {
+    width: 100%;
+    display: block;
+}
+
+
